@@ -4,68 +4,35 @@
 | NIM            | 312310475        |
 | Kelas          | TI.23.A.5        |
 | Mata Kuliah    |Bahasa Pemrograman|
+## Operating System Used
+* [WINDOWS 10](https://www.microsoft.com/software-download/windows10) -You can use this page to download a disc image (ISO file) that can be used to install or reinstall Windows 10.
 # SUB RUTIN & FUNGSI
 
+## PRAKTIKUM6
+Subrutin:
+- Subrutin adalah bagian kecil dari program yang dapat dipanggil untuk melakukan tugas tertentu.
+- Digunakan untuk mengorganisir dan memecah program menjadi bagian-bagian yang lebih kecil dan mudah dikelola.
+- Biasanya dipanggil dari bagian utama program (main program) dan dapat mengembalikan hasil ke pemanggilnya.
+- Meningkatkan keterbacaan dan perawatan program.
+Fungsi:
+- Fungsi adalah blok kode yang dirancang untuk melakukan tugas tertentu dan dapat dipanggil dari bagian manapun dalam program.
+- Sama seperti subrutin, fungsi membantu dalam memecah program menjadi bagian-bagian yang lebih kecil dan terorganisir.
+- Fungsi dapat mengembalikan nilai kepada pemanggilnya.
+- Meningkatkan modularitas dan reusabilitas kode
 ## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
+- tambah(): Fungsi ini digunakan untuk menambahkan data mahasiswa baru ke dalam daftar. Fungsi ini menerima dua argumen, yaitu nama dan nilai mahasiswa.
+- tampilkan(): Fungsi ini digunakan untuk menampilkan data mahasiswa yang ada di dalam daftar. Fungsi ini menggunakan loop for untuk iterasi setiap elemen di dalam daftar.
+- hapus(): Fungsi ini digunakan untuk menghapus data mahasiswa dari daftar. Fungsi ini menerima satu argumen, yaitu nama mahasiswa.
+- ubah(): Fungsi ini digunakan untuk mengubah nilai mahasiswa di dalam daftar. Fungsi ini menerima dua argumen, yaitu nama dan nilai mahasiswa.
+## OUTPUT
+![Screenshot (260)](https://github.com/Maullynn/pertemuan11/assets/144296695/7e500792-5d6d-4661-b9b4-20b6cbceda54)
 ## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
+1. Fungsi tambah(nama, nilai):
+2. Menambahkan data mahasiswa baru ke dalam data_mahasiswa.
+3. Fungsi tampilkan():
+3. Menampilkan nama dan nilai mahasiswa yang ada dalam data_mahasiswa.
+4. Fungsi hapus(nama):Menghapus data mahasiswa berdasarkan nama dari data_mahasiswa.
+5. Fungsi ubah(nama, nilai):Mengubah nilai mahasiswa berdasarkan nama dalam data_mahasiswa.
+6. Variabel data_mahasiswa:Menyimpan daftar mahasiswa beserta nilai mereka.
+7. Pemanggilan Fungsi:Menambahkan beberapa mahasiswa ke dalam data_mahasiswa menggunakan fungsi tambah.Menampilkan data mahasiswa menggunakan fungsi tampilkan.Menghapus        mahasiswa "Bob" menggunakan fungsi hapus.Menampilkan data mahasiswa kembali.Mengubah nilai mahasiswa "Charlie" menggunakan fungsi ubah.Menampilkan data mahasiswa            setelahperubahan.Penggunaan List Comprehension:Fungsi hapus menggunakan list comprehension untuk menghasilkan list baru tanpa data mahasiswa yang dihapus.
+8. Penggunaan Global Keyword:Fungsi hapus menggunakan kata kunci global untuk memodifikasi variabel data_mahasiswa di luar fungsi.
