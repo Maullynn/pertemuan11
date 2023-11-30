@@ -1,4 +1,11 @@
+| Variable       |    DATA DIRI     |
+| ---------------| ---------------- |
+| Nama           | Muhammad Maulana |                                       
+| NIM            | 312310475        |
+| Kelas          | TI.23.A.5        |
+| Mata Kuliah    |Bahasa Pemrograman|
 # SUB RUTIN & FUNGSI
+
 ## Description
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
